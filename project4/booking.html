@@ -51,33 +51,40 @@
         <div class="booking-form">
             <h2>Booking Form</h2>
             <form>
-
                 <label for="name">Name</label>
-                <input type="text" name="name"><br>
+                <input type="text" id="name" name="name"><br>
+
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email"><br>
-                <label for="radio">Session Type</label><br>
+
+                <label>Session Type</label><br>
                 <input type="radio" id="group" name="session_type" value="group">
                 <label for="group">Group</label>
+
                 <input type="radio" id="private" name="session_type" value="private">
                 <label for="private">Private</label><br>
+
                 <label for="session">Session</label>
-                <select name="session">
+                <select id="session" name="session">
                     <option value="children">Children's</option>
                     <option value="adult_beginner">Adult Beginner</option>
                     <option value="jam_dance">Jam/Dance</option>
-                    <option value="rhythym_n_footwork">Rhythym & Footwork</option>
+                    <option value="rhythym_n_footwork">Rhythym &amp; Footwork</option>
                     <option value="freestyle_flow">Freestyle Flow</option>
                     <option value="private">Private</option>
                 </select><br>
+
                 <label for="day">Day</label><br>
-                <input type="date" name="day">
+                <input type="date" id="day" name="day"><br>
+
                 <label for="time">Time</label><br>
-                <input type="time" name="time">
+                <input type="time" id="time" name="time"><br>
+
                 <label for="message">Message</label><br>
-                <textarea name="message"></textarea><br>
-                <input type="reset" value="Reset" class="button center">
-                <input type="submit" value="Send" class="button center">
+                <textarea id="message" name="message"></textarea><br>
+
+                <input type="reset" value="Reset" class="button">
+                <input type="submit" value="Send" class="button">
             </form>
         </div>
     </main>
